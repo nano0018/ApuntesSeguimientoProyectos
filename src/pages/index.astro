@@ -1,0 +1,8 @@
+---
+import Layout from "../layouts/Layout.astro";
+import ApuntesView from "../components/ApuntesView";
+---
+
+<Layout title="Apuntes de reuniones">
+  <ApuntesView client:only="react" />
+</Layout>

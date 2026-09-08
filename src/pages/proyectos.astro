@@ -1,0 +1,8 @@
+---
+import Layout from "../layouts/Layout.astro";
+import ProyectosView from "../components/ProyectosView";
+---
+
+<Layout title="Proyectos">
+  <ProyectosView client:only="react" />
+</Layout>
